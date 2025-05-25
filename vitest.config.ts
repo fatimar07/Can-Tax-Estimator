@@ -5,6 +5,7 @@ import Vue from "@vitejs/plugin-vue";
 import path from "path";
 
 export default defineConfig({
+  base: "/can-tax-estimator/", 
   plugins: [Vue()],
   test: {
     globals: true,

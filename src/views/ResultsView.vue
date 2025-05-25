@@ -21,8 +21,8 @@
 
       <button
         v-else-if="isLoggedIn"
-        @click="saveEstimate"
         class="bg-blue-600 text-white py-2 px-4 rounded"
+        @click="saveEstimate"
       >
         Save Estimate
       </button>

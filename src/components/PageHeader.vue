@@ -31,8 +31,8 @@
       
       <div v-if="user">
         <button
-          @click="logout"
           class="text-sm text-red-600 underline ml-4"
+          @click="logout"
         >
           Log out
         </button>
